@@ -1,88 +1,124 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ak" = (
-/turf/open/floor/plasteel/dark,
-/area/ship/hallway/starboard)
-"aF" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/security/armory)
-"bf" = (
+"az" = (
 /turf/open/floor/plasteel/white,
+/area/ship/science/robotics)
+"aL" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/cargo/port)
-"bS" = (
-/turf/open/floor/plasteel/dark,
+"aS" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/engineering/engine)
+"bm" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/engineering/electrical)
+"bv" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/cargo)
+"bD" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/storage/eva)
+"ca" = (
+/obj/machinery/door/airlock/engineering{
+	dir = 1;
+	name = "Electrical"
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/engineering/electrical)
+"cE" = (
+/obj/structure/window/plasma/reinforced/spawner,
+/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/structure/window/plasma/reinforced/spawner/north,
+/turf/open/floor/engine/air,
+/area/ship/engineering/atmospherics)
+"cK" = (
+/obj/machinery/door/airlock/medical{
+	dir = 8;
+	name = "Medbay"
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/medical)
+"df" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Port Maintenance"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/science/robotics)
+"dF" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Port Maintenance";
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/hallway/port)
-"bY" = (
+"ew" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/electrical)
-"df" = (
-/turf/open/floor/plasteel/mono/white,
-/area/space)
-"dA" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/security)
-"dU" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/engineering/engine)
-"dY" = (
-/turf/open/floor/plasteel/white,
-/area/ship/science/robotics)
-"eN" = (
-/obj/machinery/power/shuttle/engine/electric{
+"fq" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Starboard Maintenance";
 	dir = 4
 	},
-/turf/open/floor/plating,
-/area/ship/maintenance/port)
-"eS" = (
-/turf/closed/wall/mineral/titanium,
-/area/ship/storage/eva)
-"gx" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/science/robotics)
-"hJ" = (
-/turf/open/floor/plasteel/mono/white,
-/area/ship/hallway/fore)
-"iN" = (
-/turf/open/floor/plasteel/stairs/medium,
-/area/ship/maintenance/port)
-"js" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/engineering/engine)
-"jw" = (
-/turf/open/floor/plasteel/mono/white,
-/area/ship/cargo/port)
-"jH" = (
 /turf/open/floor/plasteel/mono/dark,
-/area/ship/maintenance/port)
-"lj" = (
-/turf/open/floor/plasteel/mono/white,
-/area/ship/science/robotics)
-"lI" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/engineering/electrical)
-"lW" = (
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/atmospherics)
-"ms" = (
-/turf/open/floor/plasteel/white,
-/area/ship/security/armory)
-"ne" = (
+/area/ship/hallway/starboard)
+"fs" = (
 /turf/open/floor/plasteel/stairs/medium{
 	dir = 1
 	},
 /area/ship/maintenance/port)
-"nk" = (
+"fM" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/engineering/electrical)
+"hm" = (
+/turf/open/floor/engine/airless,
+/area/ship/engineering/engine)
+"hP" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/cargo/port)
+"hQ" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/security)
+"iN" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Engine Room"
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/engineering/engine)
+"jh" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/engineering/electrical)
+"jn" = (
+/obj/machinery/power/shuttle/engine/fueled/plasma{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/maintenance/port)
+"js" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/storage/eva)
+"jy" = (
+/turf/open/floor/plasteel/stairs/left{
+	dir = 1
+	},
+/area/ship/maintenance/port)
+"kc" = (
 /obj/machinery/power/generator{
 	dir = 8
 	},
@@ -91,223 +127,258 @@
 	},
 /turf/open/floor/engine/air,
 /area/ship/engineering/engine)
-"nJ" = (
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
+"kj" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/cargo/starboard)
+"kw" = (
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/electrical)
-"nT" = (
-/turf/open/floor/plasteel/stairs/right,
-/area/ship/maintenance/port)
-"pb" = (
-/turf/open/floor/plasteel/mono/white,
-/area/ship/engineering/atmospherics)
-"pc" = (
-/turf/open/floor/plasteel/stairs/left{
-	dir = 1
-	},
-/area/ship/maintenance/port)
-"pp" = (
-/obj/machinery/atmospherics/components/binary/circulator{
-	dir = 1
-	},
-/turf/open/floor/engine/air,
-/area/ship/engineering/engine)
-"py" = (
-/turf/closed/wall/mineral/titanium,
-/area/ship/hallway/port)
-"pA" = (
-/turf/closed/wall/mineral/titanium,
-/area/space)
-"qh" = (
+"lk" = (
 /turf/open/floor/plasteel/white,
 /area/ship/cargo/starboard)
-"rj" = (
+"ln" = (
+/turf/closed/wall/mineral/titanium,
+/area/space)
+"ls" = (
+/turf/open/floor/plasteel/white,
+/area/ship/engineering/atmospherics)
+"lD" = (
+/turf/open/floor/plasteel/white,
+/area/ship/crew)
+"mX" = (
+/obj/machinery/door/airlock/security{
+	dir = 4;
+	name = "Security"
+	},
 /turf/open/floor/plasteel/mono/white,
-/area/ship/security/armory)
-"rE" = (
+/area/ship/security)
+"nc" = (
+/turf/open/floor/plasteel/white,
+/area/space)
+"ol" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/engineering/atmospherics)
+"ph" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Port Maintenance";
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/hallway/starboard)
+"pi" = (
+/obj/machinery/door/airlock/atmos{
+	name = "Atmospherics";
+	req_access_txt = "24";
+	dir = 8
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/engineering/atmospherics)
+"qu" = (
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"rF" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/engineering/electrical)
+"tg" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/engineering/engine)
+"tt" = (
+/turf/open/floor/plasteel/white,
+/area/ship/cargo/port)
+"ug" = (
+/turf/open/floor/plasteel/stairs/left,
+/area/ship/maintenance/port)
+"uy" = (
+/turf/open/floor/engine/hull/reinforced,
+/area/ship/external)
+"uF" = (
+/turf/open/floor/plasteel/stairs/right,
+/area/ship/maintenance/port)
+"uT" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/maintenance/port)
+"vL" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/engineering/atmospherics)
+"wD" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/engineering/engine)
+"wX" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Starboard Maintenance"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/maintenance/port)
+"xg" = (
+/turf/open/floor/plasteel/dark,
+/area/ship/hallway/starboard)
+"zk" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/engineering/engine)
+"zu" = (
 /turf/open/floor/plasteel/white,
 /area/ship/security)
-"rL" = (
+"zS" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/crew/canteen)
+"Al" = (
+/turf/open/floor/plasteel/white,
+/area/ship/bridge)
+"BF" = (
+/turf/open/floor/plasteel/dark,
+/area/ship/hallway/port)
+"BG" = (
 /turf/open/floor/plasteel/mono/white,
+/area/ship/security/armory)
+"Cb" = (
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen)
+"Cd" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/storage/eva)
+"CE" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/maintenance/port)
+"Do" = (
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
+"DI" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plasteel/white,
 /area/ship/engineering/electrical)
-"to" = (
+"DN" = (
+/turf/open/floor/plasteel/stairs/right{
+	dir = 1
+	},
+/area/ship/maintenance/port)
+"Ea" = (
+/turf/open/floor/plasteel/white,
+/area/ship/hallway/fore)
+"EK" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable,
+/turf/open/floor/plasteel/white,
+/area/ship/engineering/electrical)
+"Fk" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/hallway/starboard)
+"Gg" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/bridge)
+"Gv" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Port Maintenance"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/maintenance/port)
+"GF" = (
+/obj/machinery/door/airlock/medical{
+	dir = 8;
+	name = "Medbay"
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/hallway/fore)
+"Hv" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/maintenance/port)
+"HM" = (
+/obj/effect/spawner/structure/window/plasma/reinforced,
+/turf/open/floor/engine/air,
+/area/ship/engineering/engine)
+"Ie" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/space)
+"Ih" = (
+/obj/machinery/door/airlock/mining{
+	dir = 4;
+	name = "EVA"
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/storage/eva)
+"Is" = (
+/obj/structure/window/plasma/reinforced/spawner,
+/obj/structure/window/plasma/reinforced/spawner/north,
+/obj/structure/window/plasma/reinforced/spawner/west,
+/turf/open/floor/engine/air,
+/area/ship/engineering/atmospherics)
+"IJ" = (
 /obj/machinery/atmospherics/components/binary/circulator/cold,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /turf/open/floor/engine/air,
 /area/ship/engineering/engine)
-"uH" = (
-/obj/machinery/power/terminal{
-	dir = 8
+"IQ" = (
+/obj/machinery/door/airlock/mining{
+	name = "Starboard Cargo Bay"
 	},
-/obj/structure/cable/yellow{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/electrical)
-"vj" = (
-/turf/closed/wall/mineral/titanium,
-/area/ship/hallway/starboard)
-"vr" = (
 /turf/open/floor/plasteel/mono/white,
-/area/ship/engineering/engine)
-"vy" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/engineering/electrical)
-"ws" = (
-/turf/template_noop,
-/area/template_noop)
-"wJ" = (
-/turf/open/floor/plasteel/white,
+/area/ship/cargo/starboard)
+"Jv" = (
+/turf/closed/wall/mineral/titanium,
 /area/ship/bridge)
-"xg" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/structure/window/plasma/reinforced/spawner/north,
-/turf/open/floor/engine/air,
-/area/ship/engineering/atmospherics)
-"xk" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/engineering/engine)
-"xY" = (
-/obj/machinery/power/terminal{
+"JA" = (
+/obj/machinery/door/airlock/research{
+	name = "Robotics";
 	dir = 4
 	},
-/obj/structure/cable/yellow{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/electrical)
-"yE" = (
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/engine)
-"yQ" = (
-/obj/effect/turf_decal/atmos/air{
-	pixel_x = -37
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/atmospherics)
-"yU" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/plasma/reinforced/spawner/north,
-/obj/structure/window/plasma/reinforced/spawner/west,
-/turf/open/floor/engine/plasma,
-/area/ship/engineering/atmospherics)
-"yX" = (
-/turf/open/floor/engine/hull/reinforced,
-/area/ship/external)
-"zg" = (
-/turf/open/floor/plasteel/mono/dark,
-/area/ship/hallway/port)
-"zH" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/hallway/port)
-"AO" = (
-/turf/open/floor/plasteel/tech/grid,
-/area/ship/storage/eva)
-"Bc" = (
 /turf/open/floor/plasteel/mono/white,
-/area/ship/storage/eva)
-"BO" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/storage/eva)
-"CF" = (
-/turf/closed/wall/mineral/titanium,
-/area/ship/maintenance/port)
-"Dr" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/cargo/starboard)
-"DP" = (
-/turf/open/floor/plasteel/white,
 /area/ship/hallway/fore)
-"ET" = (
-/turf/closed/wall/mineral/titanium,
-/area/ship/engineering/atmospherics)
-"Fo" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/engineering/atmospherics)
-"Fr" = (
-/turf/open/floor/plasteel/mono/white,
-/area/ship/medical)
-"Gn" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/bridge)
-"Hl" = (
-/turf/open/floor/plasteel/mono/dark,
-/area/ship/hallway/starboard)
-"Hs" = (
-/turf/open/floor/plasteel/mono/white,
-/area/ship/security)
-"Jo" = (
-/turf/open/floor/plasteel/white,
-/area/ship/medical)
-"Kn" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/hallway/starboard)
-"Li" = (
-/obj/machinery/power/shuttle/engine/fueled/plasma{
-	dir = 4
+"KP" = (
+/turf/open/floor/engine,
+/area/ship/maintenance/port)
+"Mc" = (
+/obj/machinery/door/airlock/command{
+	dir = 4;
+	name = "Bridge"
 	},
-/turf/open/floor/plating,
-/area/ship/maintenance/port)
-"LU" = (
-/turf/open/floor/plasteel/stairs/left,
-/area/ship/maintenance/port)
-"Ma" = (
-/turf/open/floor/plasteel/tech/grid,
-/area/ship/cargo/starboard)
-"Mb" = (
-/obj/machinery/power/smes/engineering,
-/obj/structure/cable,
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/electrical)
-"MI" = (
-/turf/open/floor/plasteel/white,
-/area/ship/storage/eva)
-"NG" = (
+/turf/open/floor/plasteel/mono/white,
+/area/ship/science/robotics)
+"MD" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/cargo/starboard)
+"MK" = (
+/obj/machinery/door/airlock/mining{
+	frequency = 1331;
+	id_tag = "port_cargo_interior";
+	name = "Port Cargo Bay"
+	},
+/turf/open/floor/plasteel/mono/white,
 /area/ship/cargo/port)
-"QH" = (
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/electrical)
-"QN" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/hallway/fore)
-"RB" = (
-/turf/open/floor/plasteel/dark,
-/area/ship/maintenance/port)
-"RQ" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/structure/window/plasma/reinforced/spawner/north,
-/turf/open/floor/engine/plasma,
-/area/ship/engineering/atmospherics)
-"RT" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
+"NC" = (
+/obj/machinery/atmospherics/components/binary/circulator{
+	dir = 1
+	},
 /turf/open/floor/engine/air,
 /area/ship/engineering/engine)
-"So" = (
-/turf/open/floor/engine/airless,
-/area/ship/engineering/engine)
-"Tv" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
+"Pr" = (
+/turf/open/floor/plasteel/white,
+/area/ship/cargo)
+"PT" = (
+/obj/machinery/door/airlock/security{
+	dir = 4;
+	name = "Armory"
 	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/engineering/engine)
-"TI" = (
 /turf/open/floor/plasteel/mono/white,
-/area/ship/cargo/starboard)
-"TT" = (
+/area/ship/security/armory)
+"Qo" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
@@ -317,1388 +388,1415 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/electrical)
-"Ub" = (
-/turf/open/floor/plasteel/tech/grid,
-/area/ship/cargo/port)
-"UU" = (
-/turf/closed/wall/mineral/titanium,
-/area/ship/bridge)
-"VA" = (
-/turf/open/floor/plasteel/stairs/right{
-	dir = 1
-	},
-/area/ship/maintenance/port)
-"VI" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/space)
-"WL" = (
+"Qt" = (
 /turf/open/floor/plasteel/white,
-/area/space)
-"Xv" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/plasma/reinforced/spawner/north,
-/obj/structure/window/plasma/reinforced/spawner/west,
-/turf/open/floor/engine/air,
-/area/ship/engineering/atmospherics)
-"XX" = (
+/area/ship/storage/eva)
+"QO" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/medical)
-"Yj" = (
+/area/ship/hallway/fore)
+"Rq" = (
+/turf/open/floor/plasteel/dark,
+/area/ship/engineering/engine)
+"RR" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Starboard Maintenance"
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/science/robotics)
+"SU" = (
+/turf/open/floor/plasteel/stairs/medium,
+/area/ship/maintenance/port)
+"SY" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/engine)
-"Yp" = (
+"Tl" = (
+/obj/machinery/door/airlock/medical{
+	dir = 1;
+	name = "Medbay"
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/medical)
+"Tq" = (
+/turf/open/floor/plasteel/white,
+/area/ship/engineering/engine)
+"TA" = (
+/turf/open/floor/plasteel/mono/white,
+/area/space)
+"TQ" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/maintenance/port)
-"YG" = (
-/turf/open/floor/engine,
-/area/ship/maintenance/port)
-"YZ" = (
-/obj/effect/turf_decal/atmos/plasma{
-	pixel_x = -35
+/area/ship/medical)
+"UP" = (
+/turf/template_noop,
+/area/template_noop)
+"Wc" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/hallway/starboard)
+"Ww" = (
+/turf/open/floor/plasteel/white,
+/area/ship/security/armory)
+"XC" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/science/robotics)
+"XJ" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/hallway/port)
+"Yg" = (
+/obj/effect/turf_decal/atmos/air{
+	pixel_x = -37
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/atmospherics)
+"YD" = (
+/obj/machinery/door/airlock/public{
+	dir = 4;
+	name = "Crew Quarters"
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/crew)
+"ZB" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/security/armory)
 "ZM" = (
-/turf/open/floor/plasteel/mono/dark,
-/area/ship/science/robotics)
-"ZW" = (
-/turf/open/floor/plasteel/dark,
-/area/ship/engineering/engine)
+/turf/closed/wall/mineral/titanium,
+/area/ship/hallway/port)
 
 (1,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-eS
-AO
-AO
-AO
-AO
-AO
-eS
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+js
+Cd
+Cd
+Cd
+Cd
+Cd
+js
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (2,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-eS
-BO
-MI
-MI
-MI
-MI
-MI
-BO
-eS
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+js
+bD
+Qt
+Qt
+Qt
+Qt
+Qt
+bD
+js
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (3,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-eS
-BO
-BO
-MI
-MI
-MI
-MI
-MI
-BO
-BO
-eS
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+js
+bD
+bD
+Qt
+Qt
+Qt
+Qt
+Qt
+bD
+bD
+js
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (4,1,1) = {"
-ws
-eN
-Li
-eN
-ws
-ws
-ws
-ET
-Fo
-Fo
-BO
-BO
-Bc
-BO
-Bc
-BO
-BO
-VI
-VI
-pA
-ws
-ws
-ws
-eN
-Li
-eN
-ws
+UP
+CE
+jn
+CE
+UP
+UP
+UP
+vL
+ol
+ol
+bD
+bD
+Ih
+bD
+Ih
+bD
+bD
+Ie
+Ie
+ln
+UP
+UP
+UP
+CE
+jn
+CE
+UP
 "}
 (5,1,1) = {"
-Yp
-YG
-YG
-YG
-Yp
-ws
-ws
-Fo
-Xv
-yU
-dU
-yE
-yE
-yE
-yE
-yE
-dU
-WL
-WL
-VI
-ws
-ws
-Yp
-YG
-YG
-YG
-Yp
+uT
+KP
+KP
+KP
+uT
+UP
+UP
+ol
+Is
+ls
+zk
+Tq
+Tq
+Tq
+Tq
+Tq
+zk
+nc
+nc
+Ie
+UP
+UP
+uT
+KP
+KP
+KP
+uT
 "}
 (6,1,1) = {"
-Yp
-YG
-YG
-YG
-Yp
-ws
-ws
-Fo
-xg
-RQ
-dU
-yE
-yE
-yE
-yE
-yE
-dU
-WL
-WL
-VI
-ws
-ws
-Yp
-YG
-YG
-YG
-Yp
+uT
+KP
+KP
+KP
+uT
+UP
+UP
+ol
+cE
+ls
+zk
+Tq
+Tq
+Tq
+Tq
+Tq
+zk
+nc
+nc
+Ie
+UP
+UP
+uT
+KP
+KP
+KP
+uT
 "}
 (7,1,1) = {"
-Yp
-YG
-YG
-YG
-Yp
-ws
-ET
-Fo
-yQ
-YZ
-dU
-yE
-yE
-yE
-yE
-yE
-dU
-WL
-WL
-VI
-pA
-ws
-Yp
-YG
-YG
-YG
-Yp
+uT
+KP
+KP
+KP
+uT
+UP
+vL
+ol
+Yg
+ls
+zk
+Tq
+Tq
+Tq
+Tq
+Tq
+zk
+nc
+nc
+Ie
+ln
+UP
+uT
+KP
+KP
+KP
+uT
 "}
 (8,1,1) = {"
-Yp
-YG
-YG
-YG
-Yp
-ws
-Fo
-Fo
-lW
-lW
-vr
-yE
-yE
-yE
-yE
-yE
-vr
-WL
-WL
-VI
-VI
-ws
-Yp
-YG
-YG
-YG
-Yp
+uT
+KP
+KP
+KP
+uT
+UP
+ol
+ol
+ls
+ls
+iN
+Tq
+Tq
+Tq
+Tq
+Tq
+iN
+nc
+nc
+Ie
+Ie
+UP
+uT
+KP
+KP
+KP
+uT
 "}
 (9,1,1) = {"
-Yp
-YG
-YG
-YG
-Yp
-ws
-Fo
-Fo
-lW
-lW
-dU
-yE
-yE
-yE
-yE
-yE
-dU
-WL
-WL
-VI
-VI
-ws
-Yp
-YG
-YG
-YG
-Yp
+uT
+KP
+KP
+KP
+uT
+UP
+ol
+ol
+ls
+ls
+zk
+Tq
+Tq
+Tq
+Tq
+Tq
+zk
+nc
+nc
+Ie
+Ie
+UP
+uT
+KP
+KP
+KP
+uT
 "}
 (10,1,1) = {"
-Yp
-YG
-YG
-YG
-Yp
-yX
-Fo
-Fo
-pb
-Fo
-xk
-Tv
-to
-nk
-pp
-dU
-dU
-VI
-df
-VI
-VI
-yX
-Yp
-YG
-YG
-YG
-Yp
+uT
+KP
+KP
+KP
+uT
+uy
+ol
+ol
+pi
+ol
+aS
+tg
+IJ
+kc
+NC
+zk
+zk
+Ie
+TA
+Ie
+Ie
+uy
+uT
+KP
+KP
+KP
+uT
 "}
 (11,1,1) = {"
-Yp
-YG
-YG
-YG
-Yp
-Yp
-Yp
-vy
-QH
-xY
-js
-ZW
-RT
-RT
-RT
-ZW
-dU
-WL
-WL
-VI
-Yp
-Yp
-Yp
-YG
-YG
-YG
-Yp
+uT
+KP
+KP
+KP
+uT
+uT
+uT
+fM
+kw
+DI
+SY
+Rq
+HM
+HM
+HM
+Rq
+zk
+nc
+nc
+Ie
+uT
+uT
+uT
+KP
+KP
+KP
+uT
 "}
 (12,1,1) = {"
-Yp
-YG
-YG
-YG
-pc
-RB
-RB
-vy
-nJ
-Mb
-Yj
-ZW
-So
-So
-So
-ZW
-dU
-WL
-WL
-VI
-RB
-RB
-LU
-YG
-YG
-YG
-Yp
+uT
+KP
+KP
+KP
+jy
+qu
+qu
+fM
+ew
+EK
+wD
+Rq
+hm
+hm
+hm
+Rq
+zk
+nc
+nc
+Ie
+qu
+qu
+ug
+KP
+KP
+KP
+uT
 "}
 (13,1,1) = {"
-Yp
-YG
-YG
-YG
-ne
-RB
-RB
-vy
-nJ
-Mb
-Yj
-dU
-dU
-dU
-dU
-dU
-dU
-WL
-WL
-VI
-RB
-RB
-iN
-YG
-YG
-YG
-Yp
+uT
+KP
+KP
+KP
+fs
+qu
+qu
+fM
+ew
+EK
+wD
+zk
+zk
+zk
+zk
+zk
+zk
+nc
+nc
+Ie
+qu
+qu
+SU
+KP
+KP
+KP
+uT
 "}
 (14,1,1) = {"
-Yp
-YG
-YG
-YG
-ne
-RB
-RB
-vy
-bY
-uH
-lI
-ms
-ms
-ms
-ms
-ms
-aF
-WL
-WL
-VI
-RB
-RB
-iN
-YG
-YG
-YG
-Yp
+uT
+KP
+KP
+KP
+fs
+qu
+qu
+fM
+jh
+bm
+rF
+Ww
+Ww
+Ww
+Ww
+Ww
+ZB
+nc
+nc
+Ie
+qu
+qu
+SU
+KP
+KP
+KP
+uT
 "}
 (15,1,1) = {"
-Yp
-YG
-YG
-YG
-VA
-RB
-RB
-vy
-TT
-QH
-rL
-ms
-ms
-ms
-ms
-ms
-rj
-WL
-WL
-VI
-RB
-RB
-nT
-YG
-YG
-YG
-Yp
+uT
+KP
+KP
+KP
+DN
+qu
+qu
+fM
+Qo
+kw
+ca
+Ww
+Ww
+Ww
+Ww
+Ww
+BG
+nc
+nc
+Ie
+qu
+qu
+uF
+KP
+KP
+KP
+uT
 "}
 (16,1,1) = {"
-CF
-Yp
-Yp
-Yp
-Yp
-RB
-RB
-vy
-vy
-vy
-vy
-ms
-ms
-ms
-ms
-ms
-aF
-VI
-VI
-VI
-RB
-RB
-Yp
-Yp
-Yp
-Yp
-CF
+Hv
+uT
+uT
+uT
+uT
+qu
+qu
+fM
+fM
+fM
+fM
+Ww
+Ww
+Ww
+Ww
+Ww
+ZB
+Ie
+Ie
+Ie
+qu
+qu
+uT
+uT
+uT
+uT
+Hv
 "}
 (17,1,1) = {"
-ws
-CF
-Yp
-Yp
-Yp
-RB
-RB
-RB
-RB
-RB
-jH
-ms
-ms
-ms
-ms
-ms
-jH
-RB
-RB
-RB
-RB
-RB
-Yp
-Yp
-Yp
-CF
-ws
+UP
+Hv
+uT
+uT
+uT
+qu
+qu
+qu
+qu
+qu
+Gv
+Ww
+Ww
+Ww
+Ww
+Ww
+wX
+qu
+qu
+qu
+qu
+qu
+uT
+uT
+uT
+Hv
+UP
 "}
 (18,1,1) = {"
-ws
-ws
-ws
-ws
-Yp
-RB
-RB
-RB
-RB
-RB
-aF
-ms
-ms
-ms
-ms
-ms
-aF
-RB
-RB
-RB
-RB
-RB
-Yp
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+uT
+qu
+qu
+qu
+qu
+qu
+ZB
+Ww
+Ww
+Ww
+Ww
+Ww
+ZB
+qu
+qu
+qu
+qu
+qu
+uT
+UP
+UP
+UP
+UP
 "}
 (19,1,1) = {"
-ws
-ws
-ws
-ws
-NG
-NG
-NG
-NG
-VI
-VI
-aF
-rj
-aF
-aF
-aF
-rj
-aF
-VI
-VI
-Dr
-Dr
-Dr
-Dr
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+aL
+aL
+aL
+aL
+bv
+bv
+ZB
+PT
+ZB
+ZB
+ZB
+PT
+ZB
+zS
+zS
+MD
+MD
+MD
+MD
+UP
+UP
+UP
+UP
 "}
 (20,1,1) = {"
-ws
-ws
-ws
-ws
-Ub
-bf
-bf
-NG
-WL
-WL
-WL
-WL
-WL
-VI
-WL
-WL
-WL
-WL
-WL
-Dr
-qh
-qh
-Ma
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+hP
+tt
+tt
+aL
+Pr
+Pr
+Pr
+Pr
+Pr
+bv
+Cb
+Cb
+Cb
+Cb
+Cb
+MD
+lk
+lk
+kj
+UP
+UP
+UP
+UP
 "}
 (21,1,1) = {"
-ws
-ws
-ws
-ws
-Ub
-bf
-bf
-NG
-WL
-WL
-WL
-WL
-WL
-VI
-WL
-WL
-WL
-WL
-WL
-Dr
-qh
-qh
-Ma
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+hP
+tt
+tt
+aL
+Pr
+Pr
+Pr
+Pr
+Pr
+bv
+Cb
+Cb
+Cb
+Cb
+Cb
+MD
+lk
+lk
+kj
+UP
+UP
+UP
+UP
 "}
 (22,1,1) = {"
-ws
-ws
-ws
-ws
-Ub
-bf
-bf
-NG
-WL
-WL
-WL
-WL
-WL
-VI
-WL
-WL
-WL
-WL
-WL
-Dr
-qh
-qh
-Ma
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+hP
+tt
+tt
+aL
+Pr
+Pr
+Pr
+Pr
+Pr
+bv
+Cb
+Cb
+Cb
+Cb
+Cb
+MD
+lk
+lk
+kj
+UP
+UP
+UP
+UP
 "}
 (23,1,1) = {"
-ws
-ws
-ws
-ws
-Ub
-bf
-bf
-jw
-WL
-WL
-WL
-WL
-WL
-VI
-WL
-WL
-WL
-WL
-WL
-TI
-qh
-qh
-Ma
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+hP
+tt
+tt
+MK
+Pr
+Pr
+Pr
+Pr
+Pr
+bv
+Cb
+Cb
+Cb
+Cb
+Cb
+IQ
+lk
+lk
+kj
+UP
+UP
+UP
+UP
 "}
 (24,1,1) = {"
-ws
-ws
-ws
-ws
-Ub
-bf
-bf
-NG
-WL
-WL
-WL
-WL
-WL
-VI
-WL
-WL
-WL
-WL
-WL
-Dr
-qh
-qh
-Ma
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+hP
+tt
+tt
+aL
+Pr
+Pr
+Pr
+Pr
+Pr
+bv
+Cb
+Cb
+Cb
+Cb
+Cb
+MD
+lk
+lk
+kj
+UP
+UP
+UP
+UP
 "}
 (25,1,1) = {"
-ws
-ws
-ws
-ws
-NG
-NG
-Hl
-NG
-XX
-Fr
-XX
-XX
-XX
-XX
-VI
-VI
-VI
-df
-VI
-Dr
-Hl
-Dr
-Dr
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+aL
+aL
+ph
+aL
+bv
+cK
+bv
+bv
+bv
+bv
+zS
+zS
+zS
+YD
+zS
+MD
+fq
+MD
+MD
+UP
+UP
+UP
+UP
 "}
 (26,1,1) = {"
-ws
-ws
-ws
-ws
-Kn
-ak
-ak
-XX
-Jo
-Jo
-Jo
-Jo
-Jo
-XX
-WL
-WL
-WL
-WL
-WL
-Kn
-ak
-ak
-Kn
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+Fk
+xg
+xg
+TQ
+Do
+Do
+Do
+Do
+Do
+TQ
+lD
+lD
+lD
+lD
+lD
+Fk
+xg
+xg
+Fk
+UP
+UP
+UP
+UP
 "}
 (27,1,1) = {"
-ws
-ws
-ws
-ws
-vj
-Kn
-ak
-XX
-Jo
-Jo
-Jo
-Jo
-Jo
-Fr
-WL
-WL
-WL
-WL
-WL
-Kn
-ak
-Kn
-vj
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+Wc
+Fk
+xg
+TQ
+Do
+Do
+Do
+Do
+Do
+Tl
+lD
+lD
+lD
+lD
+lD
+Fk
+xg
+Fk
+Wc
+UP
+UP
+UP
+UP
 "}
 (28,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-Kn
-ak
-XX
-Jo
-Jo
-Jo
-Jo
-Jo
-XX
-WL
-WL
-WL
-WL
-WL
-Kn
-ak
-Kn
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+Fk
+xg
+TQ
+Do
+Do
+Do
+Do
+Do
+TQ
+lD
+lD
+lD
+lD
+lD
+Fk
+xg
+Fk
+UP
+UP
+UP
+UP
+UP
 "}
 (29,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-vj
-Kn
-XX
-Jo
-Jo
-Jo
-Jo
-Jo
-XX
-WL
-WL
-WL
-WL
-WL
-Kn
-Kn
-vj
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+Wc
+Fk
+TQ
+Do
+Do
+Do
+Do
+Do
+TQ
+lD
+lD
+lD
+lD
+lD
+Fk
+Fk
+Wc
+UP
+UP
+UP
+UP
+UP
 "}
 (30,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-Kn
-XX
-Jo
-Jo
-Jo
-Jo
-Jo
-XX
-WL
-WL
-WL
-WL
-WL
-Kn
-Kn
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+Fk
+TQ
+Do
+Do
+Do
+Do
+Do
+TQ
+lD
+lD
+lD
+lD
+lD
+Fk
+Fk
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (31,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-py
-zH
-zg
-zH
-QN
-QN
-hJ
-QN
-Hs
-dA
-dA
-Kn
-Hl
-Kn
-vj
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+ZM
+XJ
+dF
+XJ
+QO
+QO
+GF
+QO
+mX
+hQ
+hQ
+Fk
+fq
+Fk
+Wc
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (32,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-zH
-bS
-bS
-QN
-DP
-DP
-QN
-rE
-rE
-dA
-ak
-ak
-Kn
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+XJ
+BF
+BF
+QO
+Ea
+Ea
+QO
+zu
+zu
+hQ
+xg
+xg
+Fk
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (33,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-zH
-bS
-bS
-QN
-DP
-DP
-QN
-rE
-rE
-dA
-ak
-ak
-Kn
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+XJ
+BF
+BF
+QO
+Ea
+Ea
+QO
+zu
+zu
+hQ
+xg
+xg
+Fk
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (34,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-zH
-bS
-bS
-QN
-DP
-DP
-QN
-rE
-rE
-dA
-ak
-ak
-Kn
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+XJ
+BF
+BF
+QO
+Ea
+Ea
+QO
+zu
+zu
+hQ
+xg
+xg
+Fk
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (35,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-zH
-bS
-bS
-QN
-DP
-DP
-QN
-rE
-rE
-dA
-ak
-ak
-Kn
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+XJ
+BF
+BF
+QO
+Ea
+Ea
+QO
+zu
+zu
+hQ
+xg
+xg
+Fk
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (36,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-py
-zH
-bS
-QN
-DP
-DP
-QN
-rE
-rE
-dA
-ak
-Kn
-vj
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+ZM
+XJ
+BF
+QO
+Ea
+Ea
+QO
+zu
+zu
+hQ
+xg
+Fk
+Wc
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (37,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-zH
-bS
-QN
-QN
-hJ
-QN
-Hs
-dA
-dA
-ak
-Kn
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+XJ
+BF
+QO
+QO
+JA
+QO
+mX
+hQ
+hQ
+xg
+Fk
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (38,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-zH
-bS
-ZM
-dY
-dY
-dY
-dY
-dY
-ZM
-ak
-Kn
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+XJ
+BF
+df
+az
+az
+az
+az
+az
+RR
+xg
+Fk
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (39,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-zH
-bS
-gx
-dY
-dY
-dY
-dY
-dY
-gx
-ak
-Kn
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+XJ
+BF
+XC
+az
+az
+az
+az
+az
+XC
+xg
+Fk
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (40,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-py
-zH
-gx
-dY
-dY
-dY
-dY
-dY
-gx
-Kn
-vj
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+ZM
+XJ
+XC
+az
+az
+az
+az
+az
+XC
+Fk
+Wc
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (41,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-gx
-gx
-dY
-dY
-dY
-dY
-dY
-gx
-gx
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+XC
+XC
+az
+az
+az
+az
+az
+XC
+XC
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (42,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-gx
-gx
-dY
-dY
-dY
-dY
-dY
-gx
-gx
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+XC
+XC
+az
+az
+az
+az
+az
+XC
+XC
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (43,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-Gn
-gx
-gx
-gx
-gx
-lj
-gx
-gx
-Gn
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+Gg
+XC
+XC
+XC
+XC
+Mc
+XC
+XC
+Gg
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (44,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-Gn
-Gn
-wJ
-wJ
-wJ
-wJ
-wJ
-Gn
-Gn
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+Gg
+Gg
+Al
+Al
+Al
+Al
+Al
+Gg
+Gg
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (45,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-UU
-Gn
-wJ
-wJ
-wJ
-wJ
-wJ
-Gn
-UU
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+Jv
+Gg
+Al
+Al
+Al
+Al
+Al
+Gg
+Jv
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
 (46,1,1) = {"
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-UU
-Gn
-Gn
-Gn
-Gn
-Gn
-UU
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
-ws
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+Jv
+Gg
+Gg
+Gg
+Gg
+Gg
+Jv
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
 "}
