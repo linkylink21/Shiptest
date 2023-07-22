@@ -157,6 +157,9 @@
 /obj/structure/window/plasma/reinforced/spawner/north,
 /turf/open/floor/engine/n2,
 /area/ship/engineering/atmospherics)
+"lz" = (
+/turf/open/floor/plasteel/white,
+/area/template_noop)
 "lE" = (
 /obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/n2{
 	piping_layer = 2
@@ -241,6 +244,9 @@
 /obj/machinery/power/shuttle/engine/electric{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/open/floor/plating,
 /area/ship/maintenance/port)
 "pV" = (
@@ -298,6 +304,12 @@
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/cargo/starboard)
+"tM" = (
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ship/maintenance/port)
 "tO" = (
 /turf/open/floor/engine/hull/reinforced,
 /area/ship/external)
@@ -507,6 +519,15 @@
 "GH" = (
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/atmospherics)
+"HD" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/turf/open/floor/engine,
+/area/ship/maintenance/port)
 "HP" = (
 /obj/machinery/power/terminal{
 	dir = 8
@@ -559,6 +580,15 @@
 "KR" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/hallway/starboard)
+"Lh" = (
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/engine,
+/area/ship/maintenance/port)
 "Lt" = (
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/electrical)
@@ -866,9 +896,9 @@ VN
 "}
 (5,1,1) = {"
 vg
-Zy
-Zy
-Zy
+Lh
+tM
+Lh
 vg
 VN
 VN
@@ -888,16 +918,16 @@ dH
 VN
 VN
 vg
-Zy
-Zy
-Zy
+Lh
+tM
+Lh
 vg
 "}
 (6,1,1) = {"
 vg
+HD
 Zy
-Zy
-Zy
+HD
 vg
 VN
 VN
@@ -917,9 +947,9 @@ dH
 VN
 VN
 vg
+HD
 Zy
-Zy
-Zy
+HD
 vg
 "}
 (7,1,1) = {"
@@ -1557,8 +1587,8 @@ mr
 VN
 VN
 VN
-VN
-VN
+lz
+lz
 "}
 (29,1,1) = {"
 VN
@@ -1586,8 +1616,8 @@ KR
 VN
 VN
 VN
-VN
-VN
+lz
+lz
 "}
 (30,1,1) = {"
 VN
