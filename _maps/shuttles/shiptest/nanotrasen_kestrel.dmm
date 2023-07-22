@@ -19,7 +19,7 @@
 /area/template_noop)
 "cu" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/turf/open/floor/engine/air,
+/turf/open/floor/engine,
 /area/ship/engineering/engine)
 "dH" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -92,7 +92,9 @@
 /area/ship/maintenance/port)
 "gp" = (
 /obj/docking_port/mobile{
-	dir = 4
+	dir = 4;
+	preferred_direction = 4;
+	port_direction = 2
 	},
 /turf/open/floor/plating,
 /area/ship/bridge)
@@ -199,9 +201,6 @@
 	},
 /turf/open/floor/engine/n2,
 /area/ship/engineering/atmospherics)
-"lz" = (
-/turf/open/floor/plasteel/white,
-/area/template_noop)
 "lE" = (
 /obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/n2{
 	piping_layer = 2
@@ -243,7 +242,9 @@
 	},
 /obj/machinery/button{
 	pixel_y = 22;
-	pixel_x = -6
+	pixel_x = -6;
+	name = "Security Shutters";
+	id = "kestrel_sec"
 	},
 /obj/machinery/button{
 	pixel_y = 31;
@@ -324,7 +325,7 @@
 /obj/machinery/atmospherics/pipe/simple/dark{
 	dir = 4
 	},
-/turf/open/floor/engine/air,
+/turf/open/floor/engine,
 /area/ship/engineering/engine)
 "qP" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -663,7 +664,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/turf/open/floor/engine/air,
+/turf/open/floor/engine,
 /area/ship/engineering/engine)
 "JY" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -766,7 +767,7 @@
 /obj/machinery/atmospherics/components/binary/circulator{
 	dir = 1
 	},
-/turf/open/floor/engine/air,
+/turf/open/floor/engine,
 /area/ship/engineering/engine)
 "PW" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -782,7 +783,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/turf/open/floor/engine/air,
+/turf/open/floor/engine,
 /area/ship/engineering/engine)
 "QX" = (
 /turf/open/floor/plasteel/white,
@@ -1731,8 +1732,8 @@ mr
 VN
 VN
 VN
-lz
-lz
+VN
+VN
 "}
 (29,1,1) = {"
 VN
@@ -1760,8 +1761,8 @@ KR
 VN
 VN
 VN
-lz
-lz
+VN
+VN
 "}
 (30,1,1) = {"
 VN
