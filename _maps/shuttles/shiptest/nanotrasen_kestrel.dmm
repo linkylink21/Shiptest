@@ -31,6 +31,15 @@
 	},
 /turf/template_noop,
 /area/template_noop)
+"eB" = (
+/obj/machinery/atmospherics/pipe/simple/dark{
+	dir = 9
+	},
+/obj/machinery/computer/atmos_control/incinerator{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/engineering/engine)
 "eM" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -61,6 +70,10 @@
 	},
 /turf/open/floor/engine/n2,
 /area/ship/engineering/atmospherics)
+"gg" = (
+/obj/machinery/atmospherics/components/binary/pump,
+/turf/open/floor/plasteel/white,
+/area/ship/engineering/engine)
 "gl" = (
 /obj/machinery/door/airlock/command{
 	dir = 4;
@@ -85,14 +98,30 @@
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/electrical)
 "gX" = (
+/obj/machinery/air_sensor/atmos/incinerator_tank{
+	id_tag = "kestrel_burn_sensor"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+	dir = 8
+	},
 /turf/open/floor/engine/airless,
 /area/ship/engineering/engine)
-"hL" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/structure/window/plasma/reinforced/spawner/north,
-/turf/open/floor/engine/air,
+"hp" = (
+/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
+	piping_layer = 2
+	},
+/obj/machinery/atmospherics/pipe/simple/supply{
+	dir = 4;
+	piping_layer = 4
+	},
+/turf/open/floor/plasteel/white,
 /area/ship/engineering/atmospherics)
+"hL" = (
+/obj/machinery/atmospherics/components/trinary/mixer{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/engineering/engine)
 "hW" = (
 /obj/machinery/door/airlock/medical{
 	dir = 1;
@@ -103,6 +132,11 @@
 "iD" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+	},
+/obj/machinery/button/ignition/incinerator/atmos{
+	pixel_x = -11;
+	dir = 8;
+	pixel_y = 4
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/engine)
@@ -256,9 +290,20 @@
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/maintenance/port)
+"qd" = (
+/obj/machinery/igniter/incinerator_atmos,
+/turf/open/floor/engine/airless,
+/area/ship/engineering/engine)
 "qp" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/security/armory)
+"qK" = (
+/obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/machinery/atmospherics/pipe/simple/dark{
+	dir = 4
+	},
+/turf/open/floor/engine/air,
+/area/ship/engineering/engine)
 "ra" = (
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/cargo/port)
@@ -298,6 +343,12 @@
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/cargo/starboard)
+"tu" = (
+/obj/machinery/atmospherics/pipe/simple/dark{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/engineering/engine)
 "tO" = (
 /turf/open/floor/engine/hull/reinforced,
 /area/ship/external)
@@ -409,6 +460,15 @@
 "za" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/electrical)
+"zc" = (
+/obj/structure/window/plasma/reinforced/spawner,
+/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/structure/window/plasma/reinforced/spawner/north,
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
+	dir = 4
+	},
+/turf/open/floor/engine/plasma,
+/area/ship/engineering/engine)
 "zl" = (
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/starboard)
@@ -499,11 +559,11 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engine)
 "Gp" = (
-/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
-	piping_layer = 2
+/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/incinerator_input{
+	dir = 8
 	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/atmospherics)
+/turf/open/floor/engine/airless,
+/area/ship/engineering/engine)
 "GH" = (
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/atmospherics)
@@ -572,6 +632,16 @@
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/crew)
+"LO" = (
+/obj/structure/window/plasma/reinforced/spawner,
+/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/structure/window/plasma/reinforced/spawner/north,
+/obj/machinery/atmospherics/pipe/simple/supply{
+	dir = 4;
+	piping_layer = 4
+	},
+/turf/open/floor/engine/air,
+/area/ship/engineering/atmospherics)
 "LQ" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/security)
@@ -644,6 +714,12 @@
 	},
 /turf/template_noop,
 /area/template_noop)
+"Rd" = (
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/engineering/engine)
 "RG" = (
 /obj/machinery/door/airlock/mining{
 	dir = 4;
@@ -651,8 +727,21 @@
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/storage/eva)
+"RH" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Engine Room"
+	},
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/turf/open/floor/plasteel/mono/white,
+/area/ship/engineering/engine)
 "RK" = (
-/obj/machinery/atmospherics/components/trinary/mixer/airmix{
+/obj/machinery/atmospherics/components/trinary/mixer/airmix/inverse{
+	dir = 5
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/engineering/atmospherics)
+"RV" = (
+/obj/machinery/atmospherics/pipe/manifold/supply{
 	dir = 4;
 	piping_layer = 4
 	},
@@ -666,10 +755,10 @@
 /turf/open/floor/plasteel/mono/white,
 /area/ship/security/armory)
 "SX" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/structure/window/plasma/reinforced/spawner/north,
-/turf/open/floor/engine/plasma,
+/obj/machinery/atmospherics/pipe/simple/dark{
+	dir = 5
+	},
+/turf/open/floor/plasteel/white,
 /area/ship/engineering/engine)
 "Vf" = (
 /obj/machinery/power/shuttle/engine/fueled/plasma{
@@ -873,12 +962,12 @@ vg
 VN
 VN
 JY
-YU
 fG
+YU
 kc
+vO
+vO
 yd
-vO
-vO
 vO
 vO
 kc
@@ -902,12 +991,12 @@ vg
 VN
 VN
 JY
-hL
 kP
+LO
 kc
-SX
 vO
 vO
+zc
 vO
 vO
 kc
@@ -931,12 +1020,12 @@ vg
 VN
 aQ
 JY
-Gp
 lE
+hp
 kc
 vO
 vO
-vO
+Rd
 vO
 vO
 kc
@@ -961,11 +1050,11 @@ VN
 JY
 JY
 RK
-GH
-DB
-vO
-vO
-vO
+RV
+RH
+gg
+SX
+tu
 vO
 vO
 DB
@@ -993,8 +1082,8 @@ GH
 GH
 kc
 vO
-vO
-vO
+hL
+eB
 vO
 vO
 kc
@@ -1051,9 +1140,9 @@ Lt
 jy
 BY
 Gm
+qK
 cu
-cu
-cu
+qK
 Gm
 kc
 uD
@@ -1080,8 +1169,8 @@ va
 gA
 mH
 Gm
-gX
-gX
+Gp
+qd
 gX
 Gm
 kc
