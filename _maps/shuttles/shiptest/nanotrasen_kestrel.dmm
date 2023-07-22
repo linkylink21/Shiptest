@@ -21,23 +21,7 @@
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/engine/air,
 /area/ship/engineering/engine)
-<<<<<<< HEAD
-"cq" = (
-/obj/machinery/atmospherics/pipe/simple/dark/visible{
-	dir = 5
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/engine)
-"cN" = (
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/engine)
-"de" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-=======
 "dH" = (
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/space)
 "er" = (
@@ -107,41 +91,9 @@
 /obj/structure/window/plasma/reinforced/spawner,
 /obj/structure/window/plasma/reinforced/spawner/east,
 /obj/structure/window/plasma/reinforced/spawner/north,
-/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
-	dir = 4;
-	name = "nitrogen tank injector"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
-	dir = 4
-	},
-/turf/open/floor/engine/n2,
+/turf/open/floor/engine/air,
 /area/ship/engineering/atmospherics)
 "hW" = (
-<<<<<<< HEAD
-/turf/open/floor/plasteel/white,
-/area/ship/storage/eva)
-"iS" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/structure/window/plasma/reinforced/spawner/north,
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
-	dir = 4
-	},
-/turf/open/floor/engine/plasma,
-/area/ship/engineering/engine)
-"iZ" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/crew/canteen)
-"jB" = (
-/obj/machinery/door/airlock/mining{
-	dir = 4;
-	name = "EVA"
-	},
-/turf/open/floor/plasteel/mono/white,
-/area/ship/storage/eva)
-"ki" = (
-=======
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 /obj/machinery/door/airlock/medical{
 	dir = 1;
 	name = "Medbay"
@@ -154,16 +106,6 @@
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/engine)
-<<<<<<< HEAD
-"kF" = (
-/turf/open/floor/plasteel/mono/white,
-/area/ship/security/armory)
-"kO" = (
-/obj/machinery/atmospherics/components/binary/pump,
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/engine)
-"kR" = (
-=======
 "iV" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/medical)
@@ -180,7 +122,6 @@
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/electrical)
 "jD" = (
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Starboard Maintenance"
 	},
@@ -193,43 +134,12 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/mono/white,
-<<<<<<< HEAD
-/area/ship/security/armory)
-"mD" = (
-/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
-	dir = 9
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/atmospherics)
-"mR" = (
-/obj/machinery/atmospherics/pipe/simple/dark/visible{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/engine)
-"nF" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/space)
-"nT" = (
-/obj/machinery/door/airlock/engineering{
-	dir = 1;
-	name = "Electrical"
-	},
-/turf/open/floor/plasteel/mono/white,
-/area/ship/engineering/electrical)
-"nY" = (
-/obj/machinery/igniter{
-	id = "KESTREL_IGNITER"
-	},
-/turf/open/floor/engine/airless,
-=======
 /area/ship/engineering/atmospherics)
 "jS" = (
 /turf/open/floor/plasteel/white,
 /area/ship/cargo/starboard)
 "kc" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 /area/ship/engineering/engine)
 "kj" = (
 /turf/open/floor/plating,
@@ -269,25 +179,6 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-<<<<<<< HEAD
-/turf/open/floor/plasteel/mono/white,
-/area/ship/cargo/port)
-"tb" = (
-/turf/closed/wall/mineral/titanium,
-/area/ship/hallway/port)
-"tg" = (
-/turf/open/floor/plasteel/white,
-/area/ship/security)
-"tu" = (
-/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/atmospherics)
-"tT" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer4{
-	dir = 1
-=======
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/engine)
 "nO" = (
@@ -296,7 +187,6 @@
 	pixel_x = 6;
 	id = "kestrel_dctrl";
 	name = "Door Control"
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 	},
 /obj/machinery/button{
 	pixel_y = 22;
@@ -323,36 +213,9 @@
 	id = "kestrel_bridge"
 	},
 /turf/open/floor/plasteel/white,
-<<<<<<< HEAD
-/area/ship/engineering/electrical)
-"wv" = (
-/obj/machinery/atmospherics/components/trinary/mixer{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/engine)
-"wX" = (
-/turf/open/floor/plasteel/tech/grid,
-/area/ship/storage/eva)
-"xx" = (
-/turf/open/floor/engine/hull/reinforced,
-/area/ship/external)
-"xK" = (
-/turf/open/floor/plasteel/dark,
-/area/ship/hallway/port)
-"xV" = (
-/turf/open/floor/plasteel/dark,
-/area/ship/maintenance/port)
-"zb" = (
-/turf/closed/wall/mineral/titanium,
-/area/ship/hallway/starboard)
-"zt" = (
-/turf/closed/wall/mineral/titanium,
-=======
 /area/ship/hallway/fore)
 "nT" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 /area/ship/storage/eva)
 "pq" = (
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -387,18 +250,6 @@
 	},
 /turf/template_noop,
 /area/template_noop)
-<<<<<<< HEAD
-"zQ" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/security)
-"zY" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector{
-	dir = 8
-	},
-/turf/open/floor/engine/airless,
-/area/ship/engineering/engine)
-"Ah" = (
-=======
 "qc" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Port Maintenance"
@@ -406,7 +257,6 @@
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/maintenance/port)
 "qp" = (
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/security/armory)
 "ra" = (
@@ -419,39 +269,8 @@
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/hallway/starboard)
-<<<<<<< HEAD
-"BQ" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/cargo/starboard)
-"BT" = (
-/obj/machinery/atmospherics/pipe/simple/dark/visible{
-	dir = 9
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/engine)
-"Cq" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/bridge)
-"Db" = (
-/turf/closed/wall/mineral/titanium,
-/area/ship/engineering/atmospherics)
-"Df" = (
-/obj/machinery/door/airlock/atmos{
-	name = "Atmospherics";
-	req_access_txt = "24";
-	dir = 8
-	},
-/turf/open/floor/plasteel/mono/white,
-/area/ship/engineering/atmospherics)
-"Eh" = (
-/turf/open/floor/plasteel/white,
-/area/ship/science/robotics)
-"Ez" = (
-/obj/machinery/door/airlock/medical{
-=======
 "sh" = (
 /obj/machinery/door/airlock/engineering{
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 	dir = 1;
 	name = "Electrical"
 	},
@@ -514,18 +333,6 @@
 	pixel_y = 40;
 	pixel_x = 6
 	},
-<<<<<<< HEAD
-/obj/machinery/button/ignition{
-	pixel_x = -10;
-	dir = 8;
-	pixel_y = 4;
-	id = "KESTREL_IGNITER"
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/engineering/engine)
-"GA" = (
-=======
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/fore)
 "uD" = (
@@ -545,19 +352,6 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-<<<<<<< HEAD
-/turf/open/floor/plasteel/mono/white,
-/area/ship/security)
-"GW" = (
-/obj/machinery/atmospherics/components/trinary/mixer/airmix/inverse{
-	dir = 4;
-	piping_layer = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/atmospherics)
-"GZ" = (
-=======
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/electrical)
 "vg" = (
@@ -646,43 +440,14 @@
 /obj/machinery/button{
 	pixel_y = 40
 	},
-<<<<<<< HEAD
-/turf/open/floor/plating,
-/area/ship/maintenance/port)
-"Jh" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/structure/window/plasma/reinforced/spawner/north,
-/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
-	dir = 4;
-	name = "oxygen tank injector"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
-	dir = 4
-	},
-/turf/open/floor/engine/air,
-/area/ship/engineering/atmospherics)
-"Jl" = (
-/obj/machinery/door/airlock/medical{
-	dir = 8;
-	name = "Medbay"
-=======
 /obj/machinery/button{
 	pixel_y = 31;
 	pixel_x = 6
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 	},
 /obj/machinery/button{
 	pixel_y = 22;
 	pixel_x = 6
 	},
-<<<<<<< HEAD
-/turf/open/floor/engine/n2,
-/area/ship/engineering/atmospherics)
-"JY" = (
-/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
-	piping_layer = 2
-=======
 /obj/machinery/button{
 	pixel_y = 31;
 	pixel_x = -6
@@ -690,10 +455,6 @@
 /obj/machinery/button{
 	pixel_y = 22;
 	pixel_x = -6
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
-	dir = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/fore)
@@ -720,16 +481,6 @@
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/engineering/engine)
-<<<<<<< HEAD
-"NO" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Engine Room"
-	},
-/obj/machinery/atmospherics/pipe/layer_manifold/visible,
-/turf/open/floor/plasteel/mono/white,
-/area/ship/engineering/engine)
-"NV" = (
-=======
 "DT" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	name = "Port Cargo Shutters";
@@ -738,7 +489,6 @@
 /turf/template_noop,
 /area/template_noop)
 "Eo" = (
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Port Maintenance";
 	dir = 4
@@ -748,20 +498,9 @@
 "Gm" = (
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engine)
-<<<<<<< HEAD
-"Pt" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/cargo/port)
-"PA" = (
-/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/n2{
-=======
 "Gp" = (
 /obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 	piping_layer = 2
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/visible/layer4{
-	dir = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/atmospherics)
@@ -790,17 +529,7 @@
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/hallway/fore)
-<<<<<<< HEAD
-"UW" = (
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/engine)
-"Vl" = (
-=======
 "Jj" = (
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/cargo)
 "Ju" = (
@@ -832,17 +561,6 @@
 /area/ship/hallway/starboard)
 "Lt" = (
 /turf/open/floor/plasteel/white,
-<<<<<<< HEAD
-/area/ship/bridge)
-"WC" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
-/obj/machinery/atmospherics/pipe/simple/dark/visible{
-	dir = 4
-	},
-/turf/open/floor/engine/air,
-/area/ship/engineering/engine)
-"WL" = (
-=======
 /area/ship/engineering/electrical)
 "Lz" = (
 /turf/open/floor/plasteel/mono/white,
@@ -855,7 +573,6 @@
 /turf/open/floor/plasteel/mono/white,
 /area/ship/crew)
 "LQ" = (
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/security)
 "Mn" = (
@@ -871,14 +588,6 @@
 /area/ship/security/armory)
 "Nc" = (
 /turf/open/floor/plasteel/white,
-<<<<<<< HEAD
-/area/ship/engineering/electrical)
-"Zs" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
-	dir = 8
-	},
-/turf/open/floor/engine/airless,
-=======
 /area/ship/security/armory)
 "Nw" = (
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -961,7 +670,6 @@
 /obj/structure/window/plasma/reinforced/spawner/east,
 /obj/structure/window/plasma/reinforced/spawner/north,
 /turf/open/floor/engine/plasma,
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 /area/ship/engineering/engine)
 "Vf" = (
 /obj/machinery/power/shuttle/engine/fueled/plasma{
@@ -1157,64 +865,6 @@ pC
 VN
 "}
 (5,1,1) = {"
-<<<<<<< HEAD
-WL
-AJ
-AJ
-AJ
-WL
-zI
-zI
-VP
-Jz
-ag
-GH
-cN
-cN
-Pf
-cN
-cN
-GH
-Or
-Or
-nF
-zI
-zI
-WL
-AJ
-AJ
-AJ
-WL
-"}
-(6,1,1) = {"
-WL
-AJ
-AJ
-AJ
-WL
-zI
-zI
-VP
-gS
-Jh
-GH
-cN
-cN
-iS
-cN
-cN
-GH
-Or
-Or
-nF
-zI
-zI
-WL
-AJ
-AJ
-AJ
-WL
-=======
 vg
 Zy
 Zy
@@ -1271,7 +921,6 @@ Zy
 Zy
 Zy
 vg
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 "}
 (7,1,1) = {"
 vg
@@ -1282,72 +931,6 @@ vg
 VN
 aQ
 JY
-<<<<<<< HEAD
-GH
-cN
-cN
-UW
-cN
-cN
-GH
-Or
-Or
-nF
-fU
-zI
-WL
-AJ
-AJ
-AJ
-WL
-"}
-(8,1,1) = {"
-WL
-AJ
-AJ
-AJ
-WL
-zI
-VP
-VP
-tu
-tT
-NO
-kO
-cq
-mR
-cN
-cN
-tW
-Or
-Or
-nF
-nF
-zI
-WL
-AJ
-AJ
-AJ
-WL
-"}
-(9,1,1) = {"
-WL
-AJ
-AJ
-AJ
-WL
-zI
-VP
-VP
-GW
-mD
-GH
-cN
-wv
-BT
-cN
-cN
-=======
 Gp
 lE
 kc
@@ -1407,7 +990,6 @@ VN
 JY
 JY
 GH
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 GH
 kc
 vO
@@ -1457,64 +1039,6 @@ Zy
 vg
 "}
 (11,1,1) = {"
-<<<<<<< HEAD
-WL
-AJ
-AJ
-AJ
-WL
-WL
-WL
-Ay
-PU
-vb
-Iw
-eP
-WC
-kj
-WC
-eP
-GH
-Or
-Or
-nF
-WL
-WL
-WL
-AJ
-AJ
-AJ
-WL
-"}
-(12,1,1) = {"
-WL
-AJ
-AJ
-AJ
-Br
-xV
-xV
-Ay
-dG
-Zp
-Fv
-eP
-zY
-nY
-Zs
-eP
-GH
-Or
-Or
-nF
-xV
-xV
-Yg
-AJ
-AJ
-AJ
-WL
-=======
 vg
 Zy
 Zy
@@ -1571,7 +1095,6 @@ Zy
 Zy
 Zy
 vg
->>>>>>> ed5266b3d5c1f900c85cd2eaa20545eed62a8e1e
 "}
 (13,1,1) = {"
 vg
