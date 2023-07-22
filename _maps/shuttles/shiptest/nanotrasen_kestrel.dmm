@@ -28,6 +28,10 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Starboard Maintenance"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Armory Shutters";
+	id = "kestrel_armory"
+	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/maintenance/port)
 "bf" = (
@@ -64,7 +68,7 @@
 /area/ship/bridge)
 "cu" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
-/turf/open/floor/engine/air,
+/turf/open/floor/engine,
 /area/ship/engineering/engine)
 "cL" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
@@ -74,32 +78,23 @@
 /area/ship/cargo)
 "dH" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/space)
-"dR" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/plasteel/white,
-/area/ship/security/armory)
-"ek" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 10
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/crew/canteen)
+/area/ship/engineering/communications)
 "er" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "kestrel_dining";
-	name = "Canteen Shutters"
+/obj/machinery/button{
+	pixel_y = -24;
+	id = "kestrel_portcargo_ext";
+	name = "Port Cargo Exterior";
+	dir = 1;
+	pixel_x = -5
 	},
-/turf/template_noop,
-/area/template_noop)
-"eu" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/obj/machinery/button/shieldwallgen{
+	dir = 1;
+	id = "kestrel_portfield";
+	pixel_x = 5;
+	pixel_y = -24
+	},
 /turf/open/floor/plasteel/white,
-/area/ship/crew)
+/area/ship/cargo/port)
 "eB" = (
 /obj/machinery/atmospherics/pipe/simple/dark{
 	dir = 9
@@ -134,6 +129,11 @@
 "fb" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Starboard Maintenance";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kestrel_starcargo";
+	name = "Starboard Cargo Shutters";
 	dir = 4
 	},
 /turf/open/floor/plasteel/mono/dark,
@@ -181,6 +181,16 @@
 	dir = 4;
 	name = "Bridge"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kestrel_bridge";
+	name = "Bridge Shutters";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Robotics Shutters";
+	id = "kestrel_robotics";
+	dir = 4
+	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/science/robotics)
 "gn" = (
@@ -192,6 +202,7 @@
 /obj/docking_port/mobile{
 	dir = 4
 	},
+/obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
 /area/ship/bridge)
 "gA" = (
@@ -253,6 +264,14 @@
 	dir = 1;
 	name = "Medbay"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Medbay Shutters";
+	id = "kestrel_med"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Crew Quarter Shutters";
+	id = "kestrel_crew"
+	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/medical)
 "ie" = (
@@ -312,6 +331,10 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Starboard Maintenance"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Robotics Shutters";
+	id = "kestrel_robotics"
+	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/science/robotics)
 "jJ" = (
@@ -319,6 +342,19 @@
 	name = "Atmospherics";
 	req_access_txt = "24";
 	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Electrical Shutters";
+	id = "kestrel_elec";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Atmospherics Shutters";
+	id = "kestrel_atmos";
+	dir = 4
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/engineering/atmospherics)
@@ -329,20 +365,23 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/engine)
 "kj" = (
+/obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
 /area/ship/bridge)
 "ku" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "kestrel_starcargo";
-	name = "Starboard Cargo Shutters"
+/obj/machinery/button{
+	pixel_y = 23;
+	id = "kestrel_starcargo_ext";
+	name = "Starboard Cargo Exterior";
+	pixel_x = 5
 	},
-/turf/template_noop,
-/area/template_noop)
-"ky" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/button/shieldwallgen{
+	id = "kestrel_starfield";
+	pixel_x = -5;
+	pixel_y = 24
+	},
 /turf/open/floor/plasteel/white,
-/area/ship/crew)
+/area/ship/cargo/starboard)
 "kP" = (
 /obj/structure/window/plasma/reinforced/spawner,
 /obj/structure/window/plasma/reinforced/spawner/east,
@@ -365,20 +404,19 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/maintenance/port)
 "lz" = (
-/turf/open/floor/plasteel/white,
-/area/template_noop)
-"lC" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 8
+/obj/machinery/door/poddoor{
+	id = "kestrel_portcargo_ext";
+	name = "Cargo Door"
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	id = "kestrel_portfield";
 	dir = 4
 	},
-/turf/open/floor/plasteel/white,
-/area/ship/science/robotics)
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/cargo/port)
 "lE" = (
 /obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/n2{
 	piping_layer = 4
@@ -454,11 +492,15 @@
 	},
 /obj/machinery/button{
 	pixel_y = 22;
-	pixel_x = -6
+	pixel_x = -6;
+	name = "Security";
+	id = "kestrel_sec"
 	},
 /obj/machinery/button{
 	pixel_y = 31;
-	pixel_x = -6
+	pixel_x = -6;
+	name = "Crew Quarters";
+	id = "kestrel_crew"
 	},
 /obj/machinery/button{
 	pixel_y = 31;
@@ -468,7 +510,9 @@
 	},
 /obj/machinery/button{
 	pixel_y = 40;
-	pixel_x = -6
+	pixel_x = -6;
+	id = "kestrel_med";
+	name = "Medbay"
 	},
 /obj/machinery/button{
 	pixel_y = 40;
@@ -509,22 +553,28 @@
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/engine)
 "pq" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Electrical Shutters";
-	id = "kestrel_elec"
-	},
-/turf/template_noop,
-/area/template_noop)
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/crew/cryo)
+"pt" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/plasteel/white,
+/area/ship/security/armory)
 "px" = (
 /obj/machinery/button{
 	pixel_y = 31;
-	pixel_x = -6
+	pixel_x = -6;
+	id = "kestrel_eva_ext";
+	name = "EVA Exterior"
 	},
 /obj/machinery/button{
-	pixel_y = 40
+	pixel_y = 40;
+	id = "kestrel_portcargo_ext";
+	name = "Port Cargo Exterior"
 	},
 /obj/machinery/button{
-	pixel_y = 22
+	pixel_y = 22;
+	id = "kestrel_starcargo_ext";
+	name = "Starboard Cargo Exterior"
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/fore)
@@ -538,15 +588,28 @@
 /turf/open/floor/plating,
 /area/ship/maintenance/port)
 "pV" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Crew Quarter Shutters";
-	id = "kestrel_crew"
+/obj/machinery/button{
+	pixel_x = 24;
+	id = "kestrel_eva_ext";
+	name = "EVA Exterior";
+	dir = 8;
+	pixel_y = -5
 	},
-/turf/template_noop,
-/area/template_noop)
+/obj/machinery/button/shieldwallgen{
+	dir = 8;
+	id = "kestrel_evafield";
+	pixel_x = 24;
+	pixel_y = 5
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/storage/eva)
 "qc" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Port Maintenance"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Armory Shutters";
+	id = "kestrel_armory"
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/maintenance/port)
@@ -562,7 +625,7 @@
 /obj/machinery/atmospherics/pipe/simple/dark{
 	dir = 4
 	},
-/turf/open/floor/engine/air,
+/turf/open/floor/engine,
 /area/ship/engineering/engine)
 "qM" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -571,6 +634,10 @@
 /turf/open/floor/plasteel/white,
 /area/ship/cargo/starboard)
 "ra" = (
+/obj/machinery/door/poddoor{
+	id = "kestrel_portcargo_ext";
+	name = "Cargo Door"
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/cargo/port)
 "re" = (
@@ -588,10 +655,15 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/ship/engineering/communications)
 "sa" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Port Maintenance";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Port Cargo Shutters";
+	id = "kestrel_portcargo";
 	dir = 4
 	},
 /turf/open/floor/plasteel/mono/dark,
@@ -608,6 +680,17 @@
 	dir = 1;
 	name = "Electrical"
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	piping_layer = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Armory Shutters";
+	id = "kestrel_armory"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Electrical Shutters";
+	id = "kestrel_elec"
+	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/engineering/electrical)
 "sl" = (
@@ -619,6 +702,16 @@
 	dir = 4;
 	name = "Security"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Security Shutters";
+	id = "kestrel_sec";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Crew Quarter Shutters";
+	id = "kestrel_crew";
+	dir = 4
+	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/security)
 "sA" = (
@@ -628,11 +721,23 @@
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Port Maintenance"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Robotics Shutters";
+	id = "kestrel_robotics"
+	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/science/robotics)
 "sL" = (
 /obj/machinery/door/airlock/mining{
 	name = "Starboard Cargo Bay"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kestrel_dining";
+	name = "Canteen Shutters"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kestrel_starcargo";
+	name = "Starboard Cargo Shutters"
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/cargo/starboard)
@@ -656,6 +761,11 @@
 /obj/machinery/atmospherics/components/unary/shuttle/heater{
 	dir = 4
 	},
+/obj/machinery/door/poddoor{
+	id = "kestrel_portcargo_ext";
+	name = "Cargo Door";
+	dir = 4
+	},
 /turf/open/floor/engine,
 /area/ship/maintenance/port)
 "tO" = (
@@ -666,56 +776,75 @@
 /turf/open/floor/engine/hull/reinforced,
 /area/ship/external)
 "tV" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "kestrel_bridge";
-	name = "Bridge Shutters"
+/obj/machinery/door/airlock/security{
+	dir = 4;
+	name = "Armory"
 	},
-/turf/template_noop,
-/area/template_noop)
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Cargo Shutters";
+	id = "kestrel_cargo";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Armory Shutters";
+	id = "kestrel_armory";
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/security/armory)
 "ua" = (
 /obj/machinery/button{
 	pixel_y = 22;
-	pixel_x = 6
+	pixel_x = -6;
+	id = "kestrel_tcomm";
+	name = "Communications"
 	},
 /obj/machinery/button{
 	pixel_y = 22;
-	pixel_x = -6
+	pixel_x = 6;
+	id = "kestrel_cryo";
+	name = "Cryo"
 	},
 /obj/machinery/button{
 	pixel_y = 31;
-	pixel_x = -6
+	pixel_x = -6;
+	id = "kestrel_eva";
+	name = "EVA"
 	},
 /obj/machinery/button{
 	pixel_y = 31;
-	pixel_x = 6
+	pixel_x = 6;
+	id = "kestrel_engine";
+	name = "Engineering"
 	},
 /obj/machinery/button{
 	pixel_y = 40;
-	pixel_x = -6
+	pixel_x = -6;
+	name = "Atmospherics";
+	id = "kestrel_atmos"
 	},
 /obj/machinery/button{
 	pixel_y = 40;
-	pixel_x = 6
+	pixel_x = 6;
+	name = "Electrical";
+	id = "kestrel_elec"
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/fore)
 "uD" = (
 /turf/open/floor/plasteel/white,
-/area/space)
-"uJ" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/ship/maintenance/port)
+/area/ship/engineering/communications)
 "uK" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Robotics Shutters";
-	id = "kestrel_robotics"
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/turf/open/floor/plasteel/white,
+/area/ship/crew/cryo)
+"uW" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 4
 	},
-/turf/template_noop,
-/area/template_noop)
+/turf/open/floor/plasteel/white,
+/area/ship/security/armory)
 "va" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -752,12 +881,22 @@
 /turf/open/floor/plasteel/white,
 /area/ship/cargo)
 "vr" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Armory Shutters";
-	id = "kestrel_armory"
+/obj/machinery/door/airlock/security{
+	dir = 4;
+	name = "Security"
 	},
-/turf/template_noop,
-/area/template_noop)
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Robotics Shutters";
+	id = "kestrel_robotics";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Security Shutters";
+	id = "kestrel_sec";
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/security)
 "vw" = (
 /turf/open/floor/plasteel/stairs/left,
 /area/ship/maintenance/port)
@@ -793,23 +932,12 @@
 /turf/closed/wall/mineral/titanium,
 /area/ship/storage/eva)
 "xj" = (
+/obj/machinery/door/poddoor{
+	id = "kestrel_starcargo_ext";
+	name = "Cargo Door"
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/cargo/starboard)
-"xx" = (
-/obj/machinery/door/poddoor/shutters/preopen,
-/turf/template_noop,
-/area/template_noop)
-"xy" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/plasteel/white,
-/area/space)
-"xX" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ship/maintenance/port)
 "yd" = (
 /obj/structure/window/plasma/reinforced/spawner,
 /obj/structure/window/plasma/reinforced/spawner/west,
@@ -837,11 +965,19 @@
 	id_tag = "port_cargo_interior";
 	name = "Port Cargo Bay"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Port Cargo Shutters";
+	id = "kestrel_portcargo"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Cargo Shutters";
+	id = "kestrel_cargo"
+	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/cargo/port)
 "yT" = (
 /turf/closed/wall/mineral/titanium,
-/area/space)
+/area/ship/engineering/communications)
 "za" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/electrical)
@@ -925,46 +1061,65 @@
 /area/ship/bridge)
 "CR" = (
 /obj/machinery/button{
-	pixel_y = 40
+	pixel_y = 40;
+	name = "Armory";
+	id = "kestrel_armory"
 	},
 /obj/machinery/button{
 	pixel_y = 31;
-	pixel_x = 6
+	pixel_x = 6;
+	id = "kestrel_dining";
+	name = "Canteen"
 	},
 /obj/machinery/button{
 	pixel_y = 22;
-	pixel_x = 6
+	pixel_x = 6;
+	id = "kestrel_starcargo";
+	name = "Starboard Cargo"
 	},
 /obj/machinery/button{
 	pixel_y = 31;
-	pixel_x = -6
+	pixel_x = -6;
+	id = "kestrel_cargo";
+	name = "Cargo"
 	},
 /obj/machinery/button{
 	pixel_y = 22;
-	pixel_x = -6
+	pixel_x = -6;
+	id = "kestrel_portcargo";
+	name = Port Cargo
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/fore)
 "Df" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Door Control Shutters";
-	id = "kestrel_dctrl"
-	},
-/turf/template_noop,
-/area/template_noop)
+/turf/open/floor/plasteel/white,
+/area/ship/crew/cryo)
 "Du" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Atmospherics Shutters";
-	id = "kestrel_atmos"
+/obj/machinery/door/poddoor{
+	id = "kestrel_starcargo_ext";
+	name = "Cargo Door"
 	},
-/turf/template_noop,
-/area/template_noop)
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	id = "kestrel_starfield";
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/cargo/starboard)
 "DA" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/cargo/port)
 "DB" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engine Room"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Engineering Shutters";
+	id = "kestrel_engine"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kestrel_tcomm";
+	name = "Communications Shutters"
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/engineering/engine)
@@ -975,41 +1130,25 @@
 /turf/open/floor/plasteel/white,
 /area/ship/engineering/electrical)
 "DT" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Port Cargo Shutters";
-	id = "kestrel_portcargo"
-	},
-/turf/template_noop,
-/area/template_noop)
-"DV" = (
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
-/turf/open/floor/plasteel/white,
-/area/ship/security/armory)
-"Eg" = (
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Starboard Maintenance";
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 6
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Crew Quarter Shutters";
+	id = "kestrel_crew";
+	dir = 4
 	},
-/turf/open/floor/plasteel/white,
-/area/ship/engineering/electrical)
-"Ej" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
-/turf/open/floor/plasteel/white,
-/area/ship/crew/canteen)
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/hallway/starboard)
 "Eo" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Port Maintenance";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Medbay Shutters";
+	id = "kestrel_med";
 	dir = 4
 	},
 /turf/open/floor/plasteel/mono/dark,
@@ -1135,6 +1274,16 @@
 	dir = 8;
 	name = "Medbay"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Door Control Shutters";
+	id = "kestrel_dctrl";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Medbay Shutters";
+	id = "kestrel_med";
+	dir = 4
+	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/hallway/fore)
 "IT" = (
@@ -1167,7 +1316,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/turf/open/floor/engine/air,
+/turf/open/floor/engine,
 /area/ship/engineering/engine)
 "JY" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -1223,6 +1372,11 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+/obj/machinery/door/poddoor{
+	id = "kestrel_portcargo_ext";
+	name = "Cargo Door";
+	dir = 4
+	},
 /turf/open/floor/engine,
 /area/ship/maintenance/port)
 "Ln" = (
@@ -1242,25 +1396,36 @@
 /turf/open/floor/plasteel/white,
 /area/ship/science/robotics)
 "Lz" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 8
+/obj/machinery/door/airlock/command{
+	name = "Communications";
+	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kestrel_cryo";
+	name = "Cryo Shutters";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kestrel_tcomm";
+	name = "Communications Shutters";
 	dir = 4
 	},
 /turf/open/floor/plasteel/mono/white,
-/area/space)
-"LH" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/medical)
+/area/ship/engineering/communications)
 "LM" = (
 /obj/machinery/door/airlock/public{
 	dir = 4;
 	name = "Crew Quarters"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Crew Quarter Shutters";
+	id = "kestrel_crew";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kestrel_dining";
+	name = "Canteen Shutters";
+	dir = 4
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/crew)
@@ -1307,12 +1472,23 @@
 "Mr" = (
 /turf/open/floor/plasteel/stairs/right,
 /area/ship/maintenance/port)
-"Ms" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 9
+"Mv" = (
+/obj/machinery/door/airlock/public{
+	name = "Cryo"
 	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 9
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Armory Shutters";
+	id = "kestrel_armory"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kestrel_cryo";
+	name = "Cryo Shutters"
+	},
+/turf/open/floor/plasteel/mono/white,
+/area/ship/crew/cryo)
+"MG" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/space)
@@ -1343,53 +1519,25 @@
 /turf/open/floor/plasteel/white,
 /area/ship/cargo)
 "Nw" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Engineering Shutters";
-	id = "kestrel_engine"
+/obj/machinery/door/poddoor{
+	id = "kestrel_starcargo_ext";
+	name = "Cargo Door"
 	},
-/turf/template_noop,
-/area/template_noop)
-"NA" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	id = "kestrel_starfield";
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
-/turf/open/floor/plasteel/white,
-/area/space)
+/obj/structure/cable,
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/cargo/starboard)
 "NH" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Medbay Shutters";
-	id = "kestrel_med"
-	},
-/turf/template_noop,
-/area/template_noop)
-"NP" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+/obj/machinery/door/poddoor{
+	id = "kestrel_eva_ext";
+	name = "EVA Door";
 	dir = 4
 	},
-/turf/open/floor/plasteel/white,
-/area/ship/cargo)
-"Ok" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "EVA Shutters";
-	id = "kestrel_eva"
-	},
-/turf/template_noop,
-/area/template_noop)
-"Oo" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/turf/open/floor/plasteel/dark,
-/area/ship/maintenance/port)
-"Ot" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
-/turf/open/floor/plasteel/white,
-/area/space)
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/storage/eva)
 "Ou" = (
 /turf/open/floor/plasteel/white,
 /area/ship/cargo)
@@ -1405,7 +1553,7 @@
 /obj/machinery/atmospherics/components/binary/circulator{
 	dir = 1
 	},
-/turf/open/floor/engine/air,
+/turf/open/floor/engine,
 /area/ship/engineering/engine)
 "Qj" = (
 /turf/open/floor/plasteel/white,
@@ -1417,18 +1565,25 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/turf/open/floor/engine/air,
+/turf/open/floor/engine,
 /area/ship/engineering/engine)
 "QX" = (
 /turf/open/floor/plasteel/white,
 /area/ship/bridge)
 "Rb" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Security Shutters";
-	id = "kestrel_sec"
+/obj/machinery/door/poddoor{
+	id = "kestrel_portcargo_ext";
+	name = "Cargo Door"
 	},
-/turf/template_noop,
-/area/template_noop)
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	id = "kestrel_portfield";
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/cargo/port)
 "Rd" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 4
@@ -1472,6 +1627,16 @@
 	dir = 4;
 	name = "EVA"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Engineering Shutters";
+	id = "kestrel_engine";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "EVA Shutters";
+	id = "kestrel_eva";
+	dir = 4
+	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/storage/eva)
 "RH" = (
@@ -1479,6 +1644,14 @@
 	name = "Engine Room"
 	},
 /obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Atmospherics Shutters";
+	id = "kestrel_atmos"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Engineering Shutters";
+	id = "kestrel_engine"
+	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/engineering/engine)
 "RK" = (
@@ -1507,6 +1680,16 @@
 /obj/machinery/door/airlock/security{
 	dir = 4;
 	name = "Armory"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kestrel_dining";
+	name = "Canteen Shutters";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Armory Shutters";
+	id = "kestrel_armory";
+	dir = 4
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/security/armory)
@@ -1564,6 +1747,11 @@
 	name = "Robotics";
 	dir = 4
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Door Control Shutters";
+	id = "kestrel_dctrl";
+	dir = 4
+	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/hallway/fore)
 "VN" = (
@@ -1573,6 +1761,18 @@
 /turf/closed/wall/mineral/titanium,
 /area/ship/maintenance/port)
 "Wh" = (
+/obj/machinery/door/poddoor{
+	id = "kestrel_eva_ext";
+	name = "EVA Door";
+	dir = 4
+	},
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	dir = 1;
+	id = "kestrel_evafield"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/storage/eva)
 "Wr" = (
@@ -1599,12 +1799,19 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/starboard)
 "WY" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Cargo Shutters";
-	id = "kestrel_cargo"
+/obj/machinery/door/poddoor{
+	id = "kestrel_eva_ext";
+	name = "EVA Door";
+	dir = 4
 	},
-/turf/template_noop,
-/area/template_noop)
+/obj/machinery/power/shieldwallgen/atmos/roundstart{
+	id = "kestrel_evafield"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/storage/eva)
 "Xi" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/canteen)
@@ -1672,6 +1879,16 @@
 	dir = 8;
 	name = "Medbay"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Medbay Shutters";
+	id = "kestrel_med";
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	name = "Cargo Shutters";
+	id = "kestrel_cargo";
+	dir = 4
+	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/medical)
 "ZN" = (
@@ -1709,10 +1926,10 @@ VN
 VN
 VN
 xe
-Wh
-Wh
-Wh
-Wh
+WY
+NH
+NH
+NH
 Wh
 xe
 VN
@@ -1769,7 +1986,7 @@ nT
 nT
 IB
 IB
-IB
+pV
 IB
 IB
 nT
@@ -2005,11 +2222,11 @@ cu
 qK
 kc
 kc
-uD
-MM
-dH
-Jb
-fF
+Df
+Df
+pq
+vg
+vg
 vg
 Zy
 Zy
@@ -2034,10 +2251,10 @@ qd
 gX
 kc
 kc
-Bh
-Ot
-dH
-AB
+Df
+Df
+pq
+sA
 sA
 vw
 Zy
@@ -2063,10 +2280,10 @@ kc
 kc
 kc
 kc
-uD
-MM
-dH
-AB
+uK
+Df
+pq
+sA
 sA
 Ju
 Zy
@@ -2091,12 +2308,12 @@ Nc
 Nc
 Nc
 Nc
-qp
-Wr
-NA
-dH
-aF
-uJ
+pq
+Df
+Df
+pq
+sA
+sA
 Ju
 Zy
 Zy
@@ -2121,10 +2338,10 @@ Ru
 dR
 dR
 Mv
-xy
-Ms
-dH
-xX
+Df
+Df
+pq
+sA
 sA
 Mr
 Zy
@@ -2149,11 +2366,11 @@ nQ
 DV
 vh
 Nc
-qp
-dH
-dH
-dH
-Ye
+pq
+pq
+pq
+pq
+sA
 sA
 vg
 vg
@@ -2231,7 +2448,7 @@ DA
 Jj
 Jj
 qp
-SV
+tV
 qp
 qp
 qp
@@ -2253,7 +2470,7 @@ VN
 VN
 VN
 VN
-ra
+lz
 zI
 zI
 DA
@@ -2271,7 +2488,7 @@ OG
 lG
 jS
 jS
-xj
+Nw
 VN
 VN
 VN
@@ -2313,7 +2530,7 @@ VN
 Kz
 ra
 zI
-zI
+er
 DA
 Ou
 Rh
@@ -2327,7 +2544,7 @@ at
 vd
 OG
 lG
-jS
+ku
 jS
 xj
 bn
@@ -2369,7 +2586,7 @@ VN
 VN
 VN
 VN
-ra
+Rb
 zI
 lf
 DA
@@ -2387,7 +2604,7 @@ OG
 lG
 qM
 jS
-xj
+Du
 VN
 VN
 VN
@@ -2506,8 +2723,8 @@ mr
 VN
 VN
 VN
-lz
-lz
+VN
+VN
 "}
 (29,1,1) = {"
 VN
@@ -2535,8 +2752,8 @@ KR
 VN
 VN
 VN
-lz
-lz
+VN
+VN
 "}
 (30,1,1) = {"
 VN
@@ -2586,7 +2803,7 @@ sq
 LQ
 LQ
 mr
-fb
+DT
 mr
 KR
 VN
@@ -2619,8 +2836,8 @@ zl
 mr
 VN
 VN
-tV
-vr
+VN
+VN
 VN
 VN
 VN
@@ -2648,8 +2865,8 @@ zl
 mr
 VN
 VN
-uK
-pq
+VN
+VN
 VN
 VN
 VN
@@ -2677,8 +2894,8 @@ zl
 mr
 VN
 VN
-Df
-Du
+VN
+VN
 VN
 VN
 VN
@@ -2706,8 +2923,8 @@ zl
 mr
 VN
 VN
-Rb
-Nw
+VN
+VN
 VN
 VN
 VN
@@ -2735,8 +2952,8 @@ mr
 KR
 VN
 VN
-NH
-Ok
+VN
+VN
 VN
 VN
 VN
@@ -2756,7 +2973,7 @@ Yo
 Yo
 VM
 Yo
-sq
+vr
 LQ
 LQ
 zl
@@ -2764,8 +2981,8 @@ mr
 VN
 VN
 VN
-pV
-xx
+VN
+VN
 VN
 VN
 VN
@@ -2793,8 +3010,8 @@ mr
 VN
 VN
 VN
-er
-xx
+VN
+VN
 VN
 VN
 VN
@@ -2822,7 +3039,7 @@ mr
 VN
 VN
 VN
-ku
+VN
 VN
 VN
 VN
@@ -2851,7 +3068,7 @@ KR
 VN
 VN
 VN
-DT
+VN
 VN
 VN
 VN
@@ -2880,7 +3097,7 @@ VN
 VN
 VN
 VN
-WY
+VN
 VN
 VN
 VN
