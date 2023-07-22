@@ -12,15 +12,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/cargo/starboard)
-"aF" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ship/maintenance/port)
 "aQ" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/engineering/atmospherics)
@@ -555,10 +546,6 @@
 "pq" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/cryo)
-"pt" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/turf/open/floor/plasteel/white,
-/area/ship/security/armory)
 "px" = (
 /obj/machinery/button{
 	pixel_y = 31;
@@ -839,12 +826,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /turf/open/floor/plasteel/white,
 /area/ship/crew/cryo)
-"uW" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/security/armory)
 "va" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -1019,11 +1000,8 @@
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/fore)
 "AB" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ship/maintenance/port)
+/turf/open/floor/plasteel/white,
+/area/ship/engineering/electrical)
 "AZ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -1036,7 +1014,7 @@
 "Bh" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/ship/engineering/communications)
 "BB" = (
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -1087,7 +1065,7 @@
 	pixel_y = 22;
 	pixel_x = -6;
 	id = "kestrel_portcargo";
-	name = Port Cargo
+	name = PortCargo
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/hallway/fore)
@@ -1291,13 +1269,7 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
-"Jb" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 6
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/maintenance/port)
+/area/ship/engineering/communications)
 "Jj" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/cargo)
@@ -1473,39 +1445,10 @@
 /turf/open/floor/plasteel/stairs/right,
 /area/ship/maintenance/port)
 "Mv" = (
-/obj/machinery/door/airlock/public{
-	name = "Cryo"
-	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	name = "Armory Shutters";
-	id = "kestrel_armory"
-	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "kestrel_cryo";
-	name = "Cryo Shutters"
-	},
-/turf/open/floor/plasteel/mono/white,
-/area/ship/crew/cryo)
-"MG" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/space)
-"Mv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/mono/white,
 /area/ship/security/armory)
-"MM" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/space)
 "Nc" = (
 /turf/open/floor/plasteel/white,
 /area/ship/security/armory)
@@ -1778,7 +1721,7 @@
 "Wr" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/ship/engineering/communications)
 "Wv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -1818,15 +1761,6 @@
 "XM" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/hallway/port)
-"Ye" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/ship/maintenance/port)
 "Yi" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/white,
@@ -2135,7 +2069,7 @@ tu
 vO
 Sp
 DB
-xy
+uD
 rE
 dH
 dH
@@ -2165,7 +2099,7 @@ UE
 vO
 kc
 Bh
-Ot
+uD
 dH
 dH
 VN
@@ -2242,7 +2176,7 @@ gn
 sA
 sA
 za
-Eg
+AB
 zo
 mH
 kc
@@ -2327,16 +2261,16 @@ Zy
 Zy
 yA
 sA
-xX
+sA
 za
 eM
 Lt
 sh
-dR
-dR
+Nc
+Nc
 Ru
-dR
-dR
+Nc
+Nc
 Mv
 Df
 Df
@@ -2356,14 +2290,14 @@ vg
 vg
 vg
 sA
-xX
+sA
 za
 za
 za
 za
 Nc
 nQ
-DV
+Nc
 vh
 Nc
 pq
@@ -2386,17 +2320,17 @@ vg
 vg
 sA
 Gc
-Oo
+sA
 th
-Oo
+sA
 qc
-dR
-dR
+Nc
+Nc
 jj
-dR
-dR
+Nc
+Nc
 aR
-Oo
+sA
 pg
 Mm
 bW
@@ -2481,7 +2415,7 @@ Nt
 Ou
 Jj
 OG
-ek
+OG
 LY
 OG
 OG
@@ -2505,7 +2439,7 @@ zI
 DA
 Ou
 Ou
-NP
+Ou
 Ou
 Ou
 Jj
@@ -2539,7 +2473,7 @@ cL
 Ou
 Jj
 OG
-Ej
+OG
 at
 vd
 OG
@@ -2598,7 +2532,7 @@ Ou
 Jj
 OG
 OG
-ek
+OG
 LY
 OG
 lG
@@ -2708,12 +2642,12 @@ zl
 iV
 HS
 ne
-LH
+HS
 Zt
 HS
 iV
 Qj
-eu
+Qj
 Vb
 KI
 Qj
@@ -2771,7 +2705,7 @@ Ut
 KH
 iV
 Iq
-ky
+Qj
 Hk
 Qj
 Qj
@@ -3060,7 +2994,7 @@ wt
 Ke
 sR
 yE
-lC
+Ke
 Ke
 wt
 mr
